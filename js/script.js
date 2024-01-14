@@ -17,7 +17,7 @@ var maximumCharacters = 10;
 if ((usernameLength >= minimumCharacters) && (usernameLength <= maximumCharacters)) {
     console.log("Acceptable username");
 } else {
-    if (usernameLength < minimumCharacters) { // kunne brukt tallene: < 4, uten å lage var
+    if (usernameLength < minimumCharacters) { // kunne brukt tallene: < 4, uten å lage var --> hard code. var er fleksibel hvis en vil endre tallene
         console.log("Too few characters");
     }
     if (usernameLength > maximumCharacters) {
